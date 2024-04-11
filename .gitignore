@@ -1,0 +1,12 @@
+# Keep environment variables out of version control
+.env
+
+# dependencies
+/node_modules
+
+# misc
+*/.DS_Store
+*.pem
+
+# production
+/build
