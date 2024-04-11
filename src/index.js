@@ -8,8 +8,7 @@ const path = require("path");
 require("dotenv").config({ path: path.resolve(__dirname, "../.env") });
 
 app.get("/", function (req, res) {
-  console.log(process.env.DATABASE_URL)
-  res.send("hello world");
+  res.send("hello world !");
 });
 
 app.get("/test", async function (req, res) {
